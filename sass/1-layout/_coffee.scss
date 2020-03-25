@@ -1,0 +1,71 @@
+.coffee {
+    height: 100rem;
+    background: url('../../img//coffee-grounds.png');
+    background-position: center;
+    background-size: cover;
+    padding: .1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        text-align: center;
+        font-size: 5rem;
+        line-height: 6rem;
+        width: 75rem;
+        margin: 7rem auto 0;
+    }
+
+    p {
+        text-align: center;
+        font-size: 2.2rem;
+        width: 75rem;
+        margin: 2rem auto 0;
+        color: gray;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin: 5rem auto 0;
+        padding: 0;
+    }
+
+    &__listItem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 3rem;
+
+        img {
+            width: 33rem;
+        }
+
+        h3 {
+            font-size: 2.5rem;
+            margin: 2rem auto 1.5rem;
+        }
+
+        p {
+            width: 33rem;
+            font-size: 1.8rem;
+            margin: 0 auto;
+        }
+    }
+
+    button {
+        color: white;
+        background-color: #B38157;
+        border: none;
+        height: 5.5rem;
+        width: 15rem;
+        font-size: 1.6rem;
+        letter-spacing: .2rem;
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-top: 4rem;
+    }
+}

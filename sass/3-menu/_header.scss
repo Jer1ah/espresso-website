@@ -1,0 +1,27 @@
+.menuHeader {
+    height: 80vh;
+    background: url('https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/section-bg-8-1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: .1rem;
+}
+
+.menuHeading {
+    margin-top: 25rem;
+
+    h1 {
+        font-size: 9rem;
+        color: #333;
+        text-align: center;
+        margin: 0;
+        font-weight: 500;
+    }
+
+    p {
+        font-size: 2rem;
+        width: 70rem;
+        margin: -2rem auto 0;
+        text-align: center;
+        color: #666;
+    }
+}

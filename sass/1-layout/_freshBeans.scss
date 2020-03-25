@@ -1,0 +1,47 @@
+.freshBeans {
+    display: flex;
+
+    &__info {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        margin-top: 10rem;
+
+        h1 {
+            font-size: 5rem;
+            margin: 0;
+        }
+
+        p {
+            font-size: 1.8rem;
+            color: #666;
+            margin: 0;
+            line-height: 3.3rem;
+        }
+
+        button {
+            border: none;
+            background-color: #B38157;
+            color: white;
+            margin-top: 4rem;
+            height: 5.5rem;
+            width: 15rem;
+            font-size: 1.6rem;
+            letter-spacing: .2rem;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        &--container {
+            width: 44rem;
+        }
+    }
+
+    &__image {
+        flex: 1;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

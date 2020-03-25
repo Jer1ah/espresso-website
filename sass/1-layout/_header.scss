@@ -1,0 +1,40 @@
+.header {
+    height: 100vh;
+    background: url('../../img/header.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: .1rem;
+}
+
+.heading {
+    text-align: center;
+    margin: 33rem 0 0;
+    color: white;
+
+    h1 {
+        font-size: 7rem;
+        margin: 0;
+        letter-spacing: .2rem;
+    }
+
+    p {
+        font-size: 3rem;
+        margin: 0 0 4rem;
+    }
+
+    button {
+        border: none;
+        background-color: #B38157;
+        color: white;
+        height: 5.5rem;
+        width: 15rem;
+        font-size: 1.6rem;
+        letter-spacing: .2rem;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+}

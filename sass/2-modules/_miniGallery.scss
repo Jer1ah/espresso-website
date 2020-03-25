@@ -1,0 +1,21 @@
+.miniGallery {
+    background-color: #f8f8f8;
+
+    &__list {
+        display: flex;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        height: auto;
+        margin-bottom: -.5rem;
+    }
+
+    &__listItem {
+        height: auto;
+    }
+
+    &__image {
+       width: 100%;
+    }
+}

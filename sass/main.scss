@@ -1,0 +1,25 @@
+//BASE FOLDER
+@import '0-base/base';
+
+//LAYOUT FOLDER
+@import '1-layout/header';
+@import '1-layout/coffee';
+@import '1-layout/story';
+@import '1-layout/freshBeans';
+@import '1-layout/greatCoffee';
+@import '1-layout/coffeeShop';
+@import '1-layout/mainpageBlog';
+@import '1-layout/footer';
+
+//MODULES FOLDER
+@import '2-modules/navigation';
+@import '2-modules/miniGallery';
+
+//MENU FOLDER
+@import '3-menu/header';
+@import '3-menu/coffeeMenu';
+@import '3-menu/foodMenu';
+
+//GUIDE FOLDER
+@import '4-guide/header';
+@import '4-guide/instructions';

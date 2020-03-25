@@ -1,0 +1,38 @@
+.guideHeading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url('https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/background-2-1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    h1 {
+        font-size: 9rem;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+        font-weight: 500;
+        margin: 5rem auto -1rem;
+    }
+
+    p {
+        color: #fff;
+        font-size: 2.2rem;
+        text-align: center;
+        margin: 0 auto 3rem;
+    }
+
+    button {
+        border: none;
+        background-color: #B38157;
+        color: white;
+        height: 5.5rem;
+        width: 10rem;
+        font-size: 1.6rem;
+        letter-spacing: .2rem;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+}

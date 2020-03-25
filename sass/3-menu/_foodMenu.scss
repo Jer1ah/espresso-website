@@ -1,0 +1,80 @@
+.food__header {
+    background: url('https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/section-bg-13.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: .1rem;
+    height: 55rem;
+    text-align: center;
+
+    h1 {
+        font-size: 5rem;
+        color: #333;
+        margin: 12rem auto 4rem;
+        font-weight: 500;
+    }
+
+    p {
+        width: 75rem;
+        margin: -2rem auto 0;
+        font-size: 2rem;
+        color: #666;
+    }
+}
+
+.pastries {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #272830;
+
+    h1 {
+        font-size: 5rem;
+        color: #fff;
+        margin: 10rem auto 4rem;
+        font-weight: 500;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        list-style: none;
+        margin-bottom: 12rem;
+    }
+
+    &__listItem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 35rem;
+        text-align: center;
+        margin: 0 2rem;
+
+        img {
+            width: 25rem;
+        }
+
+        h3 {
+            color: #fff;
+            font-size: 2.5rem;
+            font-weight: 500;
+            margin: 2.2rem 0 1rem;
+        }
+
+        p {
+            color: #fff;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            margin-top: 0;
+        }
+
+        h5 {
+            font-size: 2.5rem;
+            color: #B38157;
+            margin: 0;
+        }
+    }
+}

@@ -1,0 +1,110 @@
+.instructions {
+    width: 100rem;
+    margin: 0 auto;
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        margin: 15rem auto 5rem;
+    }
+
+    &__intro {
+        h3 {
+            color: #333;
+            margin: 0;
+            font-weight: 500;
+            font-size: 2rem;
+        }
+
+        p {
+            width: 45rem;
+            color: #666;
+            font-size: 1.8rem;
+            margin-top: .5rem;
+        }
+    }
+
+    &__needs {
+        h3 {
+            color: #333;
+            margin: 0;
+            font-weight: 500;
+            font-size: 2rem;
+        }
+
+        p {
+            color: #666;
+            font-size: 1.8rem;
+            margin-top: .5rem;
+        }
+    }
+
+    &__brewTime {
+        h3 {
+            color: #333;
+            margin: 0;
+            font-weight: 500;
+            font-size: 2rem;
+        }
+
+        p {
+            color: #666;
+            font-size: 1.8rem;
+            margin-top: .5rem;
+        }
+    }
+
+    &__mainImage {
+        width: 100%;
+        margin-bottom: 15rem;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &__step {
+        border-top: .3rem solid #ddd;
+
+        h1 {
+            margin: 4.5rem 0 0;
+            color: #333;
+            font-size: 5rem;
+            font-weight: 500;
+        }
+
+        p {
+            width: 60rem;
+            font-size: 1.8rem;
+            color: #666;
+            margin: 0 0 4rem;
+            line-height: 3.5rem;
+        }
+
+        img {
+            width: 100%;
+            margin-bottom: 15rem;
+        }
+
+        img:last-child {
+            margin-bottom: 10rem;
+        }
+    }
+}
+
+.enjoy {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/section-bg-9.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: .1rem;
+    height: 50rem;
+
+    h1 {
+        font-size: 9rem;
+        text-align: center;
+        margin-top: 18rem;
+        font-weight: 500;
+        color: #fff;
+    }
+}
