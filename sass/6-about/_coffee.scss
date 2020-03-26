@@ -1,0 +1,51 @@
+.aboutCoffee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-size: 5rem;
+        font-weight: 500;
+        margin: 10rem 0 0;
+    }
+
+    p {
+        font-size: 2rem;
+        width: 66rem;
+        text-align: center;
+        color: #666;
+        margin: 0;
+    }
+}
+
+.coffeeList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    list-style: none; 
+    margin: 6rem auto 10rem;
+
+    &Item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 32rem;
+        margin: 0 1rem;
+
+        img {
+            width: 7rem;
+        }
+
+        h3 {
+            font-size: 2rem;
+            font-weight: 500;
+            margin: 2rem 0 1rem;
+        }
+
+        p {
+            width: 90%;
+            font-size: 1.8rem;
+        }
+    }
+}

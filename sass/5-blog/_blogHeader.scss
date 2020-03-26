@@ -1,0 +1,26 @@
+.blogHeader {
+    height: 50rem;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url('https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/header-bg-2-2-2.jpg');
+    background-size: cover;
+    padding: .1rem;
+}
+
+.blogHeading {
+    text-align: center;
+    margin-top: 18rem;
+
+    h1 {
+        color: #fff;
+        font-size: 9rem;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    p {
+        color: #fff;
+        font-size: 2rem;
+        margin: -1.5rem auto 0;
+        width: 66rem;
+    }
+}

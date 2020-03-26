@@ -1,25 +1,33 @@
-//BASE FOLDER
-@import '0-base/base';
+//0-MODULES FOLDER
+@import '0-modules/navigation';
+@import '0-modules/miniGallery';
+@import '0-modules/footer';
 
-//LAYOUT FOLDER
-@import '1-layout/header';
-@import '1-layout/coffee';
-@import '1-layout/story';
-@import '1-layout/freshBeans';
-@import '1-layout/greatCoffee';
-@import '1-layout/coffeeShop';
-@import '1-layout/mainpageBlog';
-@import '1-layout/footer';
+//1-BASE FOLDER
+@import '1-base/base';
 
-//MODULES FOLDER
-@import '2-modules/navigation';
-@import '2-modules/miniGallery';
+//2-MAIN FOLDER
+@import '2-main/mainHeader';
+@import '2-main/coffee';
+@import '2-main/coffeeShop';
+@import '2-main/freshBeans';
+@import '2-main/greatCoffee';
+@import '2-main/mainpageBlog';
+@import '2-main/story';
 
-//MENU FOLDER
-@import '3-menu/header';
+//3-MENU FOLDER
+@import '3-menu/menuHeader';
 @import '3-menu/coffeeMenu';
 @import '3-menu/foodMenu';
 
-//GUIDE FOLDER
-@import '4-guide/header';
+//4-GUIDE FOLDER
+@import '4-guide/guideHeader';
 @import '4-guide/instructions';
+
+//5-BLOG FOLDER
+@import '5-blog/blogHeader';
+@import '5-blog/blog';
+
+//6-ABOUT FOLDER
+@import '6-about/aboutHeader';
+@import '6-about/coffee';
