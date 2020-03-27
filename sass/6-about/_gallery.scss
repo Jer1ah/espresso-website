@@ -1,0 +1,56 @@
+.aboutGallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-size: 5rem;
+        color: #333;
+        font-weight: 500;
+        margin: 10rem auto 1rem;
+    }
+
+    p {
+        font-size: 2rem;
+        color: #888;
+        margin: -1.5rem auto 0;
+        width: 66rem;
+        text-align: center;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 5rem 0 0 5rem;
+        width: auto;
+    }
+
+    &__mainImage {
+        width: 53.5rem;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &__secondary {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0 0 7rem 0;
+        width: 58.5rem;
+
+        &Item {
+            width: 25rem;
+            margin: 0 0 3rem 3rem;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

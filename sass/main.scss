@@ -2,6 +2,7 @@
 @import '0-modules/navigation';
 @import '0-modules/miniGallery';
 @import '0-modules/footer';
+@import '0-modules/newsletter';
 
 //1-BASE FOLDER
 @import '1-base/base';
@@ -31,3 +32,7 @@
 //6-ABOUT FOLDER
 @import '6-about/aboutHeader';
 @import '6-about/coffee';
+@import '6-about/locations';
+@import '6-about/gallery';
+@import '6-about/images';
+@import '6-about/ourTeam';
