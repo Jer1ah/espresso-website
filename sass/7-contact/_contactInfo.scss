@@ -1,0 +1,112 @@
+.contactInfo {
+    display: flex;
+    height: 50rem;
+
+    &__form {
+        flex: 1;
+        height: 100%;
+    }
+
+    &__newsletter {
+        background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+                    url('../../img/coffee-beans.png');
+        background-size: cover;
+        flex: 1;
+        text-align: center;
+        height: 100%;
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 500;
+            margin: 7rem auto 0;
+            color: #fff;
+        }
+
+        p {
+            font-size: 2rem;
+            margin: 0 auto;
+            width: 55rem;
+            text-align: center;
+            color: #eee;
+        }
+
+        input {
+            display: block;
+            margin: 3rem auto 2rem;
+            width: 56rem;
+            height: 5rem;
+            font-size: 1.8rem;
+            text-indent: 2rem;
+            border: none;
+        }
+
+        button {
+            display: block;
+            margin: 0 auto;
+            width: 56rem;
+            height: 5.4rem;
+            border: none;
+            background-color: #dca47d;
+            color: #fff;
+            font-size: 1.6rem;
+            letter-spacing: .2rem;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__form {
+        form {
+            width: 80%;
+            margin: 7rem auto 0;
+
+            .topRow {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+            }
+
+            label {
+                font-size: 4rem;
+                margin: 0;
+                font-weight: 500;
+            }
+
+            input {
+                width: 29rem;
+                height: 5rem;
+                font-size: 1.5rem;
+                text-indent: 1.5rem;
+                border: .1rem solid lightgray;
+            }
+
+            textarea {
+                display: block;
+                width: 100%;
+                padding: 0;
+                margin-top: 2rem;
+                text-indent: 1.5rem;
+                font-size: 1.5rem;
+                height: 14rem;
+                padding-top: 1.5rem;
+                border: .1rem solid lightgray;
+            }
+
+            button {
+                float: right;
+                border: none;
+                background-color: #dca47d;
+                color: white;
+                height: 5.5rem;
+                width: 12rem;
+                font-size: 1.6rem;
+                letter-spacing: .2rem;
+                font-family: 'Roboto Condensed', sans-serif;
+                margin-top: 2rem;
+            }
+        }
+    }
+}
