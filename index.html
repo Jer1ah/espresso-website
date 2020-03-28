@@ -12,7 +12,10 @@
 <body>
     <header class="header">
         <nav class="navigation">
-            <span class="navigation__logo"><img src="img/coffee-cup.svg" alt="Site Icon"/>Espresso</span>
+            <div class="navigation__container">
+                <span class="navigation__logo"><img src="img/coffee-cup.svg" alt="Site Icon"/>Espresso</span>
+                <img src="img/open-menu.svg" alt="Mobile Nav Icon" class="mobileNav">
+            </div> <!-- .navigation__container end -->
             <ul class="navigation__list">
                 <li class="navigation__listItem"><a href="index.html" class="active">Home</a></li>
                 <li class="navigation__listItem"><a href="menu.html">Menu</a></li>
@@ -28,28 +31,28 @@
             <button>LEARN MORE</button>
         </div> <!-- .heading end -->
     </header> <!-- .header end -->
-    <div class="coffee">
+    <div class="mainCoffee">
         <h1>WE BELIEVE IN COFFEE THAT TASTES INCREDIBLE</h1>
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
-        <ul class="coffee__list">
-            <li class="coffee__listItem">
-                <img src="img/mocha-latte.png" alt="Coffee Image">
+        <ul class="mainCoffee__list">
+            <li class="mainCoffee__listItem">
+                <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coffee-item-2.png" alt="Coffee Image">
                 <h3>MOCHA LATTE</h3>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
             </li>
-            <li class="coffee__listItem">
-                <img src="img/pour-over.png" alt="Coffee Image">
+            <li class="mainCoffee__listItem">
+                <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coffee-item-1.png" alt="Coffee Image">
                 <h3>POUR OVER</h3>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
             </li>
-            <li class="coffee__listItem">
-                <img src="img/espresso.png" alt="Coffee Image">
+            <li class="mainCoffee__listItem">
+                <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coffee-item-3.png" alt="Coffee Image">
                 <h3>ESPRESSO</h3>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
             </li>
         </ul> <!-- .coffee__list end -->
         <button>FULL MENU</button>
-    </div> <!-- .coffee end -->
+    </div> <!-- .mainCoffee end -->
     <div class="story">
         <h1>OUR STORY</h1>
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam aperiam.</p>
@@ -156,5 +159,10 @@
             </div>
         </div> <!-- .contact end -->
     </footer>
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

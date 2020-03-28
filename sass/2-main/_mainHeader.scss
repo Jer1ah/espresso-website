@@ -16,11 +16,13 @@
         font-size: 7rem;
         margin: 0;
         letter-spacing: .2rem;
+        font-weight: 500;
     }
 
     p {
         font-size: 3rem;
-        margin: 0 0 4rem;
+        margin: -1rem 0 4rem;
+        font-weight: 300;
     }
 
     button {
@@ -36,5 +38,22 @@
 
     button:hover {
         cursor: pointer;
+    }
+}
+
+
+//MEDIA QUERIES
+@media (max-width: 860px) {
+    .heading {
+        h1 {
+            width: 50rem;
+            margin: 0 auto 2rem;
+            line-height: 6.6rem;
+            font-size: 6rem;
+        }
+
+        p {
+            font-size: 2.2rem;
+        }
     }
 }

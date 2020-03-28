@@ -44,6 +44,7 @@
 
         a:hover {
             color: #B38157;
+            cursor: pointer;
         }
     }
 
@@ -52,6 +53,51 @@
     }
 }
 
+.mobileNav {
+    width: 3.5rem;
+    display: none;
+}
+
+.mobileNav:hover {
+    cursor: pointer;
+}
+
 .active {
     color: #B38157 !important;
+}
+
+
+//MEDIA QUERIES
+@media( max-width: 950px ) {
+    .navigation {
+        height: auto;
+        min-height: 7.7rem;
+        flex-direction: column;
+
+        &__list {
+            display: none;
+            flex-direction: column;
+            margin: 2rem 0 3rem;
+
+            &Item {
+                margin: 1rem 0 0;
+                a {
+                    color: #B38157;
+                    font-size: 3rem;
+                }
+            }
+        }
+
+        &__container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 1.3rem;
+        }
+    }
+
+    .mobileNav {
+        display: inline;
+        margin-right: 4rem;
+    }
 }
