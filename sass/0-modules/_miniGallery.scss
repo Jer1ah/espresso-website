@@ -19,3 +19,17 @@
        width: 100%;
     }
 }
+
+
+//MEDIA QUERIES 
+@media( max-width: 950px ) {
+    .miniGallery__list {
+        flex-direction: column;
+        margin: 0;
+
+        &Item {
+            margin: 0;
+            margin-bottom: -1rem;
+        }
+    }
+}

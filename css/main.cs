@@ -625,7 +625,6 @@ body, html {
 .mainpageBlog h1 {
   font-size: 5rem;
   margin: 8.8rem auto 0.5rem;
-  font-weight: 500;
 }
 .mainpageBlog .para {
   font-size: 2rem;
@@ -678,35 +677,6 @@ body, html {
   margin: 3rem auto 11rem;
 }
 
-@media (max-width: 1170px) {
-  .mainpageBlog__listItem {
-    width: 28rem;
-  }
-  .mainpageBlog__listItem p {
-    max-width: 90%;
-  }
-}
-@media (max-width: 950px) {
-  .mainpageBlog h1 {
-    font-size: 4rem;
-    margin-bottom: 0;
-  }
-  .mainpageBlog p {
-    max-width: 80%;
-  }
-  .mainpageBlog__list {
-    flex-direction: column;
-    width: 100%;
-  }
-  .mainpageBlog__listItem {
-    width: 85%;
-    margin-bottom: 5rem;
-  }
-  .mainpageBlog__listItem p {
-    width: 95%;
-    max-width: 100%;
-  }
-}
 .story {
   background-color: #1d140b;
   color: white;
@@ -1466,4 +1436,4 @@ body, html {
   margin-top: 2rem;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.cs.map */

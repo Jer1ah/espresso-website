@@ -72,3 +72,68 @@
         margin: 7rem 0 10rem;
     }
 }
+
+
+//MEDIA QUERIES
+@media( max-width: 1150px ) {
+    .mainCoffee {
+        h1 {
+            font-size: 4rem;
+            width: 50rem;
+            line-height: 5rem;
+        }
+
+        p {
+            font-size: 1.8rem;
+            margin: 0 0 2rem;
+            width: 50rem;
+            max-width: 90%;
+        }
+    
+        &__listItem {
+            img {
+                width: 20rem;
+            }
+
+            p {
+                width: 26rem;
+            }
+        }
+    }
+}
+
+@media( max-width: 950px ) {
+    .mainCoffee {
+        h1 {
+            font-size: 3.5rem;
+            line-height: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        &__list {
+            flex-direction: column;
+        }
+
+        &__listItem {
+            margin-bottom: 7rem;
+
+            img {
+                width: 35rem;
+            }
+
+            h3 {
+                font-size: 3rem;
+            }
+
+            p {
+                width: 40rem;
+                font-size: 2rem;
+                margin: 0;
+            }
+        }
+
+        button {
+            margin-top: 0;
+        }
+    }
+}

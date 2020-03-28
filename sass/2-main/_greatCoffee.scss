@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background: url('../../img/coffeeGrounds-cup.png');
+    background: url('https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/section-bg-10.jpg');
     background-size: cover;
     background-position: 50%;
 
@@ -14,6 +14,7 @@
         h1 {
             font-size: 5rem;
             margin: 1rem 0 0;
+            font-weight: 500;
         }
 
         p {
@@ -33,5 +34,20 @@
             letter-spacing: .2rem;
             font-family: 'Roboto Condensed', sans-serif;
         }
+    }
+}
+
+
+//MEDIA QUERIES
+@media( max-width: 1250px ) {
+    .greatCoffee__container {
+        margin-right: 5rem;
+        width: 45rem;
+    }
+}
+
+@media( max-width: 950px ) {
+    .greatCoffee__container {
+        width: 80%;
     }
 }

@@ -8,6 +8,7 @@
     h1 {
         font-size: 5rem;
         margin: 11rem auto 1rem;
+        font-weight: 500;
     }
 
     p {
@@ -15,5 +16,22 @@
         width: 75rem;
         margin: 0 auto;
         line-height: 4rem;
+    }
+}
+
+
+//MEDIA QUERIES
+@media( max-width: 950px ) {
+    .story {
+        height: auto;
+
+        h1 {
+            margin-bottom: 0;
+        }
+
+        p {
+            max-width: 85%;
+            margin-bottom: 10rem;
+        }
     }
 }

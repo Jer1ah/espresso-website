@@ -38,6 +38,7 @@
         font-size: 5rem;
         margin: 15rem auto 2rem;
         color: #fff;
+        font-weight: 500;
     }
 
     p {
@@ -46,6 +47,7 @@
         color: #fff;
         text-align: center;
         font-size: 1.8rem;
+        line-height: 4rem;
     }
 
     button {
@@ -62,5 +64,41 @@
 
     button:hover {
         cursor: pointer;
+    }
+}
+
+
+//MEDIA QUERIES
+@media( max-width: 950px ) {
+    .coffeeShop {
+        height: auto;
+
+        h1 {
+            margin: 10rem 0 4rem;
+            width: 35rem;
+            text-align: center;
+            line-height: 5.5rem;
+        }
+
+        &__list {
+            flex-direction: column;
+
+            &Item {
+                margin: 0 0 5rem;
+            }
+
+            &Item:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        p {
+            margin-top: 0;
+            max-width: 85%;
+        }
+
+        button {
+            margin: 4rem 0 11rem;
+        }
     }
 }
