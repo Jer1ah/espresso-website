@@ -78,3 +78,21 @@
         }
     }
 }
+
+
+//MEDIA QUERIES
+@media( max-width: 950px ) {
+    .food__header {
+        h1 {
+            font-size: 5rem;
+        }
+
+        p {
+            max-width: 85%;
+        }
+    }
+
+    .pastries__listItem {
+        margin-bottom: 4rem;
+    }
+}

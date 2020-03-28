@@ -764,6 +764,24 @@ body, html {
   color: #666;
 }
 
+@media (max-width: 950px) {
+  .menuHeader {
+    height: 60vh;
+  }
+
+  .menuHeading {
+    margin-top: 17rem;
+  }
+  .menuHeading h1 {
+    font-size: 6rem;
+    margin-bottom: 0;
+  }
+  .menuHeading p {
+    margin-top: 0.1rem;
+    width: 55rem;
+    max-width: 85%;
+  }
+}
 .coffeeMenu {
   display: flex;
   flex-direction: column;
@@ -888,6 +906,18 @@ body, html {
   margin: 0;
 }
 
+@media (max-width: 950px) {
+  .food__header h1 {
+    font-size: 5rem;
+  }
+  .food__header p {
+    max-width: 85%;
+  }
+
+  .pastries__listItem {
+    margin-bottom: 4rem;
+  }
+}
 .guideHeading {
   display: flex;
   flex-direction: column;
