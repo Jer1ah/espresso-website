@@ -8,6 +8,12 @@
         margin: 15rem auto 5rem;
     }
 
+    &__container {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+    }
+
     &__intro {
         h3 {
             color: #333;
@@ -25,6 +31,8 @@
     }
 
     &__needs {
+        margin-left: 9rem;
+
         h3 {
             color: #333;
             margin: 0;
@@ -40,6 +48,8 @@
     }
 
     &__brewTime {
+        margin-right: 7rem;
+
         h3 {
             color: #333;
             margin: 0;
@@ -106,5 +116,60 @@
         margin-top: 18rem;
         font-weight: 500;
         color: #fff;
+    }
+}
+
+
+//MEDIA QUERIES
+@media( max-width: 1050px ) {
+    .instructions {
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+
+        &__list {
+            flex-direction: column;
+            width: 100%;
+            margin: 10rem 0 0;
+
+            p {
+                width: 100%;
+            }
+        }
+
+        &__container {
+            justify-content: flex-start;
+            margin: 2rem 0 5rem;
+        }
+
+        &__brewTime {
+            margin: 0 0 0 25rem;
+        }
+
+        &__needs {
+            margin: 0;
+        }
+    }
+}
+
+@media( max-width: 950px ) {
+    .instructions {
+        &__brewTime {
+            margin-left: 25%;
+        }
+
+        &__step {
+            p {
+                max-width: 100%;
+            }
+        }
+    }
+
+    .enjoy {
+        height: 30rem;
+
+        h1 {
+            margin-top: 8rem;
+        }
     }
 }

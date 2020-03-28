@@ -944,7 +944,7 @@ body, html {
 }
 .guideHeading button {
   border: none;
-  background-color: #B38157;
+  background-color: #dca47d;
   color: white;
   height: 5.5rem;
   width: 10rem;
@@ -953,6 +953,14 @@ body, html {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+@media (max-width: 950px) {
+  .guideHeading h1 {
+    font-size: 6rem;
+  }
+  .guideHeading p {
+    font-size: 2rem;
+  }
+}
 .instructions {
   width: 100rem;
   margin: 0 auto;
@@ -961,6 +969,11 @@ body, html {
   display: flex;
   justify-content: space-between;
   margin: 15rem auto 5rem;
+}
+.instructions__container {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
 }
 .instructions__intro h3 {
   color: #333;
@@ -974,6 +987,9 @@ body, html {
   font-size: 1.8rem;
   margin-top: 0.5rem;
 }
+.instructions__needs {
+  margin-left: 9rem;
+}
 .instructions__needs h3 {
   color: #333;
   margin: 0;
@@ -984,6 +1000,9 @@ body, html {
   color: #666;
   font-size: 1.8rem;
   margin-top: 0.5rem;
+}
+.instructions__brewTime {
+  margin-right: 7rem;
 }
 .instructions__brewTime h3 {
   color: #333;
@@ -1042,6 +1061,46 @@ body, html {
   color: #fff;
 }
 
+@media (max-width: 1050px) {
+  .instructions {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+  .instructions__list {
+    flex-direction: column;
+    width: 100%;
+    margin: 10rem 0 0;
+  }
+  .instructions__list p {
+    width: 100%;
+  }
+  .instructions__container {
+    justify-content: flex-start;
+    margin: 2rem 0 5rem;
+  }
+  .instructions__brewTime {
+    margin: 0 0 0 25rem;
+  }
+  .instructions__needs {
+    margin: 0;
+  }
+}
+@media (max-width: 950px) {
+  .instructions__brewTime {
+    margin-left: 25%;
+  }
+  .instructions__step p {
+    max-width: 100%;
+  }
+
+  .enjoy {
+    height: 30rem;
+  }
+  .enjoy h1 {
+    margin-top: 8rem;
+  }
+}
 .blogHeader {
   height: 50rem;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/header-bg-2-2-2.jpg");

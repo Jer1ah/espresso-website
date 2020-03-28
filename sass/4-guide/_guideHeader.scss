@@ -27,12 +27,26 @@
 
     button {
         border: none;
-        background-color: #B38157;
+        background-color: #dca47d;
         color: white;
         height: 5.5rem;
         width: 10rem;
         font-size: 1.6rem;
         letter-spacing: .2rem;
         font-family: 'Roboto Condensed', sans-serif;
+    }
+}
+
+
+//MEDIA QUERIES
+@media( max-width: 950px ) {
+    .guideHeading {
+        h1 {
+            font-size: 6rem;
+        }
+
+        p {
+            font-size: 2rem;
+        }
     }
 }
