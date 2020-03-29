@@ -42,6 +42,10 @@
             letter-spacing: .2rem;
             font-family: 'Roboto Condensed', sans-serif;
         }
+
+        button:hover {
+            cursor: pointer;
+        }
     }
 
     &__container {

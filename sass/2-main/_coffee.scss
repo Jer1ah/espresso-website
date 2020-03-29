@@ -62,7 +62,7 @@
 
     button {
         color: white;
-        background-color: #B38157;
+        background-color: #dca47d;
         border: none;
         height: 5.5rem;
         width: 15rem;
@@ -70,6 +70,10 @@
         letter-spacing: .2rem;
         font-family: 'Roboto Condensed', sans-serif;
         margin: 7rem 0 10rem;
+    }
+
+    button:hover {
+        cursor: pointer;
     }
 }
 

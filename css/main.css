@@ -255,6 +255,9 @@
   letter-spacing: 0.2rem;
   font-family: "Roboto Condensed", sans-serif;
 }
+.newsletter__input button:hover {
+  cursor: pointer;
+}
 
 body, html {
   margin: 0;
@@ -371,7 +374,7 @@ body, html {
 }
 .mainCoffee button {
   color: white;
-  background-color: #B38157;
+  background-color: #dca47d;
   border: none;
   height: 5.5rem;
   width: 15rem;
@@ -379,6 +382,9 @@ body, html {
   letter-spacing: 0.2rem;
   font-family: "Roboto Condensed", sans-serif;
   margin: 7rem 0 10rem;
+}
+.mainCoffee button:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 1150px) {
@@ -538,7 +544,7 @@ body, html {
 }
 .freshBeans__info button {
   border: none;
-  background-color: #B38157;
+  background-color: #dca47d;
   color: white;
   margin-top: 4rem;
   margin-bottom: 10rem;
@@ -547,6 +553,9 @@ body, html {
   font-size: 1.6rem;
   letter-spacing: 0.2rem;
   font-family: "Roboto Condensed", sans-serif;
+}
+.freshBeans__info button:hover {
+  cursor: pointer;
 }
 .freshBeans__info--container {
   width: 44rem;
@@ -595,7 +604,7 @@ body, html {
 }
 .greatCoffee__container button {
   border: none;
-  background-color: #B38157;
+  background-color: #dca47d;
   color: white;
   margin-top: 4rem;
   height: 5.5rem;
@@ -603,6 +612,9 @@ body, html {
   font-size: 1.6rem;
   letter-spacing: 0.2rem;
   font-family: "Roboto Condensed", sans-serif;
+}
+.greatCoffee__container button:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 1250px) {
@@ -669,7 +681,7 @@ body, html {
 }
 .mainpageBlog button {
   border: none;
-  background-color: #B38157;
+  background-color: #dca47d;
   color: white;
   height: 5.5rem;
   width: 15rem;
@@ -677,6 +689,9 @@ body, html {
   letter-spacing: 0.2rem;
   font-family: "Roboto Condensed", sans-serif;
   margin: 3rem auto 11rem;
+}
+.mainpageBlog button:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 1170px) {
@@ -952,6 +967,9 @@ body, html {
   font-size: 1.6rem;
   letter-spacing: 0.2rem;
   font-family: "Roboto Condensed", sans-serif;
+}
+.guideHeading button:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 950px) {
@@ -1327,6 +1345,9 @@ body, html {
   letter-spacing: 0.2rem;
   font-family: "Roboto Condensed", sans-serif;
 }
+.aboutLocations__info button:hover {
+  cursor: pointer;
+}
 .aboutLocations__container {
   display: flex;
   flex-direction: column;
@@ -1560,6 +1581,9 @@ body, html {
   font-family: "Roboto Condensed", sans-serif;
   margin-bottom: 7rem;
 }
+.ourTeam button:hover {
+  cursor: pointer;
+}
 
 @media (max-width: 1150px) {
   .ourTeam p {
@@ -1736,6 +1760,9 @@ body, html {
   letter-spacing: 0.2rem;
   font-family: "Roboto Condensed", sans-serif;
   margin-top: 2rem;
+}
+.contactInfo__form form button:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 1175px) {
