@@ -39,7 +39,6 @@
   color: black;
 }
 .navigation__listItem a:hover {
-  color: #B38157;
   cursor: pointer;
 }
 .navigation__listItem:last-child {
