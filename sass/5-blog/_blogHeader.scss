@@ -24,3 +24,18 @@
         width: 66rem;
     }
 }
+
+
+//MEDIA QUERIES
+@media( max-width: 950px ) {
+    .blogHeading {
+        h1 {
+            font-size: 6rem;
+        }
+
+        p {
+            width: 50rem;
+            max-width: 80%;
+        }
+    }
+}

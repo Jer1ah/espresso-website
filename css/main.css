@@ -216,6 +216,7 @@
 .newsletter__info {
   width: 50rem;
   margin-bottom: 2rem;
+  max-width: 90%;
 }
 .newsletter__info h1 {
   font-size: 4rem;
@@ -233,6 +234,7 @@
   display: flex;
   flex-direction: column;
   width: 50rem;
+  max-width: 80%;
 }
 .newsletter__input input {
   width: 100%;
@@ -1125,6 +1127,15 @@ body, html {
   width: 66rem;
 }
 
+@media (max-width: 950px) {
+  .blogHeading h1 {
+    font-size: 6rem;
+  }
+  .blogHeading p {
+    width: 50rem;
+    max-width: 80%;
+  }
+}
 .blog {
   background-color: #f8f8f8;
   padding: 0.1rem;
@@ -1163,6 +1174,18 @@ body, html {
   color: #666;
 }
 
+@media (max-width: 821px) {
+  .blog__list {
+    padding: 0;
+    margin: 10rem 0 7rem;
+  }
+  .blog__listItem {
+    width: 85%;
+  }
+  .blog__listItem p {
+    width: 93%;
+  }
+}
 .aboutHeader {
   height: 50rem;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/header-bg-2-2-2.jpg");
