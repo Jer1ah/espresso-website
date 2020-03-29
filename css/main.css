@@ -1210,6 +1210,14 @@ body, html {
   width: 66rem;
 }
 
+@media (max-width: 950px) {
+  .aboutHeading h1 {
+    font-size: 6rem;
+  }
+  .aboutHeading p {
+    max-width: 80%;
+  }
+}
 .aboutCoffee {
   display: flex;
   flex-direction: column;
@@ -1256,6 +1264,28 @@ body, html {
   font-size: 1.8rem;
 }
 
+@media (max-width: 1050px) {
+  .coffeeListItem {
+    width: 28rem;
+    margin: 0 0.5rem;
+  }
+}
+@media (max-width: 950px) {
+  .aboutCoffee h1 {
+    font-size: 4rem;
+  }
+  .aboutCoffee p {
+    max-width: 80%;
+  }
+
+  .coffeeList {
+    flex-direction: column;
+  }
+  .coffeeListItem {
+    margin: 3.3rem 0;
+    width: 35rem;
+  }
+}
 .aboutLocations {
   height: 75rem;
   background: url("https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/section-bg-4.jpg");
@@ -1270,20 +1300,23 @@ body, html {
   width: 50rem;
   text-align: center;
   height: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .aboutLocations__info h1 {
   font-size: 4rem;
-  margin: 7rem auto 2rem;
   width: 80%;
   font-weight: 500;
   line-height: 5rem;
+  margin: 8rem 0 2rem;
 }
 .aboutLocations__info p {
   width: 80%;
   font-size: 1.8rem;
   color: #666;
-  margin: 2rem auto 4rem;
   line-height: 3.5rem;
+  margin: 0 0 4rem;
 }
 .aboutLocations__info button {
   border: none;
@@ -1339,6 +1372,52 @@ body, html {
   margin-right: 5rem;
 }
 
+@media (max-width: 1050px) {
+  .aboutLocations {
+    flex-direction: column;
+    height: auto;
+  }
+  .aboutLocations__info {
+    width: 75rem;
+    height: auto;
+    max-width: 80%;
+    margin: 10rem 0 3rem;
+  }
+  .aboutLocations__info h1 {
+    margin: 6rem 0 2rem;
+  }
+  .aboutLocations__info button {
+    margin: 0 0 5rem;
+  }
+  .aboutLocations__container {
+    flex-direction: column;
+    margin-bottom: 10rem;
+    width: 75rem;
+    max-width: 80%;
+    margin-left: 0;
+  }
+  .aboutLocations__image img {
+    height: auto;
+  }
+  .aboutLocations__count {
+    height: auto;
+    position: relative;
+  }
+  .aboutLocations__count .varieties {
+    margin: 5rem 0 5rem 10rem;
+  }
+  .aboutLocations__count .locations {
+    margin: 5rem 10rem 5rem 0;
+  }
+}
+@media (max-width: 730px) {
+  .aboutLocations__count .locations {
+    margin-right: 4.4rem;
+  }
+  .aboutLocations__count .varieties {
+    margin-left: 4.4rem;
+  }
+}
 .aboutGallery {
   display: flex;
   flex-direction: column;
@@ -1361,7 +1440,7 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  margin: 5rem 0 0 5rem;
+  margin: 5rem 0;
   width: auto;
 }
 .aboutGallery__mainImage {
@@ -1388,6 +1467,35 @@ body, html {
   width: 100%;
 }
 
+@media (max-width: 1150px) {
+  .aboutGallery__list {
+    flex-direction: column;
+    width: 80rem;
+    max-width: 80%;
+  }
+  .aboutGallery__mainImage {
+    width: 100%;
+  }
+  .aboutGallery__secondary {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  .aboutGallery__secondaryItem {
+    width: 49%;
+    margin: 0;
+    align-items: space-between;
+    margin-top: 0.7rem;
+  }
+}
+@media (max-width: 950px) {
+  .aboutGallery h1 {
+    font-size: 4rem;
+  }
+  .aboutGallery p {
+    max-width: 80%;
+  }
+}
 .images {
   display: flex;
   width: 100%;
@@ -1454,6 +1562,48 @@ body, html {
   margin-bottom: 7rem;
 }
 
+@media (max-width: 1150px) {
+  .ourTeam p {
+    width: 75rem;
+    max-width: 80%;
+  }
+  .ourTeam__list {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-items: center;
+    width: 75rem;
+    max-width: 80%;
+  }
+  .ourTeam__listItem {
+    width: 100%;
+    display: flex;
+    margin-bottom: 3.3rem;
+  }
+  .ourTeam__listItem img {
+    width: 28rem;
+  }
+  .ourTeam__listItem .personInfo {
+    margin-left: 3rem;
+  }
+  .ourTeam__listItem .personInfo h3 {
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
+@media (max-width: 700px) {
+  .ourTeam__listItem {
+    flex-direction: column;
+  }
+  .ourTeam__listItem img {
+    width: 33rem;
+    max-width: 100%;
+  }
+  .ourTeam__listItem .personInfo {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+}
 .contactHeader {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/header-bg-2-2-2-2.jpg");
   background-size: cover;

@@ -49,3 +49,33 @@
         }
     }
 }
+
+
+//MEDIA QUERIES 
+@media( max-width: 1050px ) {
+    .coffeeListItem {
+        width: 28rem;
+        margin: 0 .5rem;
+    }
+}
+
+@media( max-width: 950px ) {
+    .aboutCoffee {
+        h1 {
+            font-size: 4rem;
+        }
+
+        p {
+            max-width: 80%;
+        }
+    }
+
+    .coffeeList {
+        flex-direction: column;
+
+        &Item {
+            margin: 3.3rem 0;
+            width: 35rem;
+        }
+    }
+}

@@ -24,3 +24,17 @@
         width: 66rem;
     }
 }
+
+
+//MEDIA QUERIES
+@media( max-width: 950px ) {
+    .aboutHeading {
+        h1 {
+            font-size: 6rem;
+        }
+        
+        p {
+            max-width: 80%;
+        }
+    }
+}
