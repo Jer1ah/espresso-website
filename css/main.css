@@ -1631,6 +1631,14 @@ body, html {
   text-align: center;
 }
 
+@media (max-width: 950px) {
+  .contactHeading h1 {
+    font-size: 6rem;
+  }
+  .contactHeading p {
+    max-width: 85%;
+  }
+}
 .contactInfo {
   display: flex;
   height: 50rem;
@@ -1658,11 +1666,13 @@ body, html {
   width: 55rem;
   text-align: center;
   color: #eee;
+  max-width: 85%;
 }
 .contactInfo__newsletter input {
   display: block;
   margin: 3rem auto 2rem;
   width: 56rem;
+  max-width: 85%;
   height: 5rem;
   font-size: 1.8rem;
   text-indent: 2rem;
@@ -1672,6 +1682,7 @@ body, html {
   display: block;
   margin: 0 auto;
   width: 56rem;
+  max-width: 85%;
   height: 5.4rem;
   border: none;
   background-color: #dca47d;
@@ -1726,6 +1737,37 @@ body, html {
   letter-spacing: 0.2rem;
   font-family: "Roboto Condensed", sans-serif;
   margin-top: 2rem;
+}
+
+@media (max-width: 1175px) {
+  .contactInfo {
+    flex-direction: column;
+    height: auto;
+  }
+  .contactInfo__form form input {
+    width: 48%;
+  }
+  .contactInfo__form button {
+    margin-bottom: 5rem;
+  }
+  .contactInfo__newsletter {
+    height: auto;
+  }
+  .contactInfo__newsletter button {
+    margin-bottom: 10rem;
+  }
+}
+@media (max-width: 850px) {
+  .contactInfo__form .topRow {
+    flex-direction: column;
+  }
+  .contactInfo__form .topRow input {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  .contactInfo__form .topRow input:last-child {
+    margin-bottom: 0;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

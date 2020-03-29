@@ -28,12 +28,14 @@
             width: 55rem;
             text-align: center;
             color: #eee;
+            max-width: 85%;
         }
 
         input {
             display: block;
             margin: 3rem auto 2rem;
             width: 56rem;
+            max-width: 85%;
             height: 5rem;
             font-size: 1.8rem;
             text-indent: 2rem;
@@ -44,6 +46,7 @@
             display: block;
             margin: 0 auto;
             width: 56rem;
+            max-width: 85%;
             height: 5.4rem;
             border: none;
             background-color: #dca47d;
@@ -106,6 +109,52 @@
                 letter-spacing: .2rem;
                 font-family: 'Roboto Condensed', sans-serif;
                 margin-top: 2rem;
+            }
+        }
+    }
+}
+
+
+//MEDIA QUERIES 
+@media( max-width: 1175px ) {
+    .contactInfo {
+        flex-direction: column;
+        height: auto;
+
+        &__form {
+            form {
+                input {
+                    width: 48%;
+                }
+            }
+
+            button {
+                margin-bottom: 5rem;
+            }
+        }
+
+        &__newsletter {
+            height: auto;
+
+            button {
+                margin-bottom: 10rem;
+            }
+        }
+    }
+}
+
+@media( max-width: 850px ) {
+        .contactInfo__form {
+        .topRow {
+            flex-direction: column;
+
+            input {
+                width: 100%;
+                margin-bottom: 1.5rem;
+            }
+
+            input:last-child {
+                margin-bottom: 0;
             }
         }
     }

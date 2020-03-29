@@ -27,3 +27,17 @@
         text-align: center;
     }
 }
+
+
+//MEDIA QUERIES
+@media( max-width: 950px ) {
+    .contactHeading {
+        h1 {
+            font-size: 6rem;
+        }
+
+        p {
+            max-width: 85%;
+        }
+    }
+}
