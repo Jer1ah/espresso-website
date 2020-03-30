@@ -119,7 +119,7 @@
 }
 .footer {
   height: 55rem;
-  background: url("../../img/footer-image.png");
+  background: url("https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/section-bg-7-6.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -269,8 +269,7 @@ body, html {
 
 .header {
   height: 100vh;
-  background: url("../../img/header.png");
-  background-repeat: no-repeat;
+  background: url("https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/header-bg-1-1.jpg");
   background-position: center;
   background-size: cover;
   padding: 0.1rem;
@@ -318,7 +317,7 @@ body, html {
   }
 }
 .mainCoffee {
-  background: url("../../img//coffee-grounds.png");
+  background: url("https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/section-bg-8-1.jpg");
   background-position: center;
   background-size: cover;
   padding: 0.1rem;
